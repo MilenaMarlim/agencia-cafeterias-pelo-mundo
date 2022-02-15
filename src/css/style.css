@@ -1,0 +1,231 @@
+.cabecalho .logo .imagem{
+    width: 100px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    max-width: 1170px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+ .logo{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+ .titulo{
+    margin-left: 7px;
+    font-size: 17px;
+    transition: 0.3s ease-in-out;
+    font-weight: 800;
+}
+
+ .titulo:hover{
+    color: #c26236;
+}
+
+.cabecalho .menu{
+    display: flex;
+}
+
+.cabecalho .navegacao .menu .item{
+    margin: 10px;
+}
+
+.cabecalho .navegacao .menu .item a{
+    padding: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.cabecalho .navegacao .menu .item a:hover{
+    background-color:#c26236;
+    border-radius: 10px;
+    color: white;
+}
+
+.conteudo-principal .paineis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    position: relative;
+}
+
+.conteudo-principal .paineis .imagem-painel{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(70%);
+    font-size: 20px;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.conteudo-principal .paineis .imagem-painel.mostrar{
+    opacity: 1;
+}
+
+.conteudo-principal .paineis .projeto1{
+    background-image: url(../images/exp3.jpg);
+}
+
+.conteudo-principal .paineis .projeto2{
+    background-image: url(../images/exp2.jpg);
+}
+
+.conteudo-principal .paineis .projeto3{
+    background-image: url(../images/expe1.jpg);
+}
+
+.conteudo-principal .paineis .titulo{
+    color: #FFFF;
+    text-transform: uppercase;
+    font-size: calc(1em + 1vw);
+    text-align: center;
+}
+
+.conteudo-principal .paineis .seta{
+    background-image: url(../images/seta.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height:50px;
+    position: absolute;
+    text-indent:100%;
+    overflow: hidden;
+}
+
+.conteudo-principal .paineis .seta.btn-voltar{
+    left: 20px;
+    transform: rotateY(180deg);
+}
+
+.conteudo-principal .paineis .seta.btn-avancar{
+    right: 20px;   
+}
+
+.quem-somos{
+    background-color: #030100;
+}
+
+.quem-somos .conteudo{
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.quem-somos .conteudo .informacoes{
+    width: 40%;
+    text-align: center;
+}
+
+.quem-somos .conteudo .imagem{
+    border: solid 2px #c26236;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.quem-somos .conteudo .informacoes .titulo{
+    font-size: 50px;
+    color: #c26236;
+    margin-bottom: 20px;
+}
+
+.quem-somos .conteudo .informacoes .texto{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #FFF;
+    font-weight: 400;
+}
+
+.destaque-do-texto{
+    color: #c26236;
+    text-decoration:overline;
+}
+
+.instrucao-servico{
+    background-color:#db662c;
+    line-height: 20px;
+    color:black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    transition: 0.3s ease-in-out;
+    border: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.instrucao-servico:hover{
+    background-color: black;
+    color:#c26236;
+}
+.viagens-gastronomicas{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.viagens-gastronomicas img{
+    height: 100%;
+    transition: 0.3s;
+}
+
+.viagens-gastronomicas a:hover{
+    opacity: 0.8;
+}
+
+.rodape{
+    padding: 30px 0 20px 0;
+}
+
+.rodape .navegacao{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.rodape .redes-sociais{
+    display: flex;
+}
+
+.rodape .redes-sociais a{
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+    font-size: 30px;
+    border: 2px solid #111;
+    border-radius: 50%;
+    padding: 15px;
+    width: 65px;
+    transition: 0.3s ease-in-out;
+}
+
+.redes-sociais a:hover{
+    background-color:#c26236;
+}
+
+.rodape .logo .imagem{
+    width: 100px;
+}
+
+.rodape .copyright{
+    margin-top: 70px;
+    text-align: center;
+}
