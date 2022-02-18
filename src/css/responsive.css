@@ -10,6 +10,10 @@
         font-size: calc(0.6em + 1vw);
     }
 
+    .logo .titulo{
+        text-align: center;
+    }
+
     .instrucao-servico{
         margin: 20px;
     }
